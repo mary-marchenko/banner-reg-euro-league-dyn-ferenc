@@ -7,6 +7,11 @@
     window.addEventListener('resize', setHeight);
 })();
 
+window.addEventListener("orientationchange", () => {
+    location.reload(true)
+});
+
+// color padding-top
 document.addEventListener("DOMContentLoaded", function() {
     function isIOS() {
         return /iPhone|iPad|iPod/i.test(navigator.userAgent);
