@@ -87,10 +87,14 @@ body
           border-radius: 8px 8px 0 0
           margin-bottom: -2px
           padding-top: 2px
+          &.noios-padding
+            padding-top: 4px
         &__time
           height: 53%
           background-color: $blue
           border-radius: 0 0 8px 8px
+          &.noios-padding
+            padding-top: 2px
     &-right
       z-index: 2
       .banner
@@ -155,6 +159,8 @@ body
           width: 63px
           height: 55.5px
           background: url("../img/cup.svg") no-repeat 50% 0/cover
+        &.noios-padding
+          padding-top: 12px
       &.fs
         display: flex
         justify-content: flex-end
